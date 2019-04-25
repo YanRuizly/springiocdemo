@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean id="Student" class="com.coder.entity.Student">
+        <property name="name" value="Coder"/>
+        <property name="add" value="China"/>
+    </bean>
+
+    <bean id="StudentSrv" class="com.coder.service.StudentSrv">
+        <property ref="Student"/>
+    </bean>
+</beans>
+
